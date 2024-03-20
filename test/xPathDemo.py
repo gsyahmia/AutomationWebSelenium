@@ -35,4 +35,4 @@ time.sleep(3)
 
 # Text() function
 # driver.find_element(By.XPATH, "//b[text()='Cart']").click()
-time.sleep(3)
+# time.sleep(3)
