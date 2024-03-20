@@ -29,10 +29,10 @@ driver.maximize_window()
 # time.sleep(3)
 
 #Xpath using Contains/Start with
-# driver.find_element(By.XPATH, "//input[contains(@id,'search')]").send_keys("T-shirt")
-# driver.find_element(By.XPATH, "//button[starts-with(@name,'submit_')]").click()
-# time.sleep(3)
+driver.find_element(By.XPATH, "//input[contains(@id,'search')]").send_keys("T-shirt")
+driver.find_element(By.XPATH, "//button[starts-with(@name,'submit_')]").click()
+time.sleep(3)
 
-
-driver.find_element(By.XPATH, "//b[text()='Cart']").click()
+# Text() function
+# driver.find_element(By.XPATH, "//b[text()='Cart']").click()
 time.sleep(3)
